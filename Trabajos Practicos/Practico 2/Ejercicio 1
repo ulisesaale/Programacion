@@ -1,0 +1,24 @@
+// Hacer funcionar el LED parpadeando hasta que se aprete 
+// el pulsador y quede prendido por 1 segundo y se apague
+
+// Se define los pines a utilizar del ESP32
+void setup() {
+  pinMode(5, OUTPUT);       //Pin del LED
+  pinMode(4, INPUT);        //Pin del Pulsador
+}
+
+void loop() {
+  digitalRead(4);           //Lee el pulsador
+  digitalWrite(5, HIGH);    //Enciende el LED por 10 milisegundos
+  delay(100);
+  digitalWrite(5, LOW);     //Se apaga el LED por 10 milisegundos
+  delay(100);
+  
+  if (digitalRead(4) == HIGH) {     //Si se apreta el pulsador queda encendido el LED por 1 segundo
+    digitalWrite(5, HIGH);
+    delay(1000);
+  }
+  
+  else {digitalWrite(5, LOW);       //Cuando se suelta el pulsado, se apaga el LED
+  }
+}
