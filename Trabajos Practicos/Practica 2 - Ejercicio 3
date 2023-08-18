@@ -2,8 +2,6 @@
 
 ## Las salidas digitales de Arduino pueden suministrar una corriente limitada, por lo que es importante conocer las especificaciones de cada componente para determinar si es seguro encenderlos directamente desde las salidas del Arduino o si se requiere el uso de circuitos de control adicionales.
 
-Aquí tienes una lista de los elementos que mencionaste junto con sus requerimientos de corriente y tensión, y si pueden ser encendidos por las salidas del Arduino:
-
 ## a. Diodo LED:
 
 Corriente: Varía según el LED, típicamente de 5 a 20 mA.
