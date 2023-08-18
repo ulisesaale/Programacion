@@ -1,6 +1,6 @@
 # ISPC - Instituto Superior Politecnico de Cordoba  
 
-[![Instituto](/assets/ISPC_portada.png)](/assets/ISPC_portada.png)
+[![Instituto](/Assets/ISPC_portada.png)](/Assets/ISPC_portada.png)
 
 
 ## Programacion
