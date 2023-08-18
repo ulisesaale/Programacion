@@ -3,6 +3,7 @@
 [![Instituto](/Assets/ISPC_portada.png)](/Assets/ISPC_portada.png)
 
 
+
 ## Programacion
 
 **Docente:** Lisandro Noel LANFRANCO
@@ -12,3 +13,5 @@ Ulises Ale
 
 ## Año
 - **2023**
+
+![Logo](/Assets/ispc.png)
