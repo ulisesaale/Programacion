@@ -8,7 +8,7 @@
 
 **Docente:** Lisandro Noel LANFRANCO
   
-**Alumnos:**
+**Alumno:**
 Ulises Ale
 
 ## Año
