@@ -10,7 +10,9 @@ int valor_viejo = 0;        //Almacena el antiguo valor
 
 void setup(){  
  pinMode(LED,OUTPUT); 
- pinMode(Pulsador,INPUT); 
+ pinMode(Pulsador,INPUT);
+ Serial.begin(115200);
+ Serial.print("Pulsador como interruptor");  
 }
 
 
