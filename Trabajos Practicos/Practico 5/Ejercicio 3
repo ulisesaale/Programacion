@@ -11,17 +11,14 @@ void setup() {
 }
 
 void loop() {
-  // Leer la temperatura desde el sensor
-  float temperatura = dht.readTemperature();
+  float temperatura = dht.readTemperature();  // Leer la temperatura desde el sensor
 
-  // Verificar si la lectura es válida
-  if (!isnan(temperatura)) {
-    // Enviar la temperatura al puerto serie
-    Serial.print("Temperatura: ");
+  if (!isnan(temperatura)) {   // Verificar si la lectura es válida
+    Serial.print("Temperatura: "); // Enviar la temperatura al puerto serie
     Serial.print(temperatura);
-    Serial.println("°C");
+    Serial.println(" °C");
   }
 
   // Esperar un breve período antes de tomar otra lectura
-  delay(2000); // Puedes ajustar este valor según sea necesario
+  delay(2000); 
 }
